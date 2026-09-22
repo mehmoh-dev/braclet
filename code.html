@@ -1,0 +1,456 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@100..900&amp;family=Inter:wght@100..900&amp;family=Montserrat:wght@100..900&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-container": "#848481", "secondary": "#7a581f", "surface-bright": "#f9f9f7", "inverse-primary": "#c9c6c4", "error-container": "#ffdad6", "outline-variant": "#c7c7c0", "on-tertiary": "#ffffff", "on-secondary-fixed": "#281800", "surface-container-low": "#f4f4f2", "on-error-container": "#93000a", "primary-container": "#1c1c1a", "on-surface": "#1a1c1b", "secondary-container": "#fed08b", "tertiary-container": "#1b1c1a", "surface-tint": "#5f5e5d", "tertiary": "#000000", "on-secondary": "#ffffff", "on-primary-container": "#858382", "background": "#f9f9f7", "on-secondary-fixed-variant": "#5f4107", "on-tertiary-fixed-variant": "#464744", "primary": "#000000", "secondary-fixed": "#ffddae", "error": "#ba1a1a", "on-error": "#ffffff", "surface-dim": "#dadad8", "surface-variant": "#e2e3e1", "surface": "#f9f9f7", "outline": "#777871", "surface-container": "#eeeeec", "on-surface-variant": "#464742", "on-background": "#1a1c1b", "on-tertiary-fixed": "#1b1c1a", "tertiary-fixed": "#e3e2df", "inverse-on-surface": "#f1f1ef", "inverse-surface": "#2f3130", "on-primary-fixed": "#1c1c1a", "on-primary": "#ffffff", "surface-container-high": "#e8e8e6", "surface-container-lowest": "#ffffff", "primary-fixed-dim": "#c9c6c4", "secondary-fixed-dim": "#ecbf7c", "primary-fixed": "#e5e2e0", "on-primary-fixed-variant": "#474745", "tertiary-fixed-dim": "#c7c7c3", "surface-container-highest": "#e2e3e1", "on-secondary-container": "#78571e" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "space-md": "1rem", "gutter": "1.5rem", "space-lg": "1.5rem", "gutter-mobile": "0.75rem", "margin": "3rem", "margin-mobile": "1rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-lg": ["Montserrat"], "headline-md": ["Montserrat"], "body-md": ["Montserrat"], "data-tabular": ["Inter"], "headline-sm": ["Montserrat"], "display-lg": ["EB Garamond"], "headline-lg": ["EB Garamond"], "label-sm": ["Inter"], "display-lg-mobile": ["EB Garamond"], "label-md": ["Inter"], "headline-lg-mobile": ["EB Garamond"] }, "fontSize": { "body-lg": ["15px", { "lineHeight": "24px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-md": ["20px", { "lineHeight": "28px", "letterSpacing": "0.04em", "fontWeight": "500" }], "body-md": ["13px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "400" }], "data-tabular": ["12px", { "lineHeight": "16px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-sm": ["16px", { "lineHeight": "24px", "letterSpacing": "0.06em", "fontWeight": "600" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "0em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "600" }], "display-lg-mobile": ["34px", { "lineHeight": "42px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 w-full z-40 bg-surface/95 backdrop-blur-md border-b border-surface-container-high"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile lg:px-margin flex items-center justify-between"><div class="flex items-center gap-4"><img alt="Brand logo. - Primary color: #1a1918 - Font: bodoniModa - Mode: light - Roundness: rounded-lg" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V4DNa07-agpsYJ_ScDc2cY_durf3SuiqyN4XsoNMiUS1xoH3tTUTeGsdnau56qcP_NQMHT-xnzttiNlDJDhnPN-ai4_IBMcy2-yhHrwjf-R6hrwQJAXsYugWNorIkoALX5N7GIxA9G8-Su9Ber5be-UtZfnuwzVjM-9r_GRdPBxxShJW7KXpfa8Br43nxeFY78HAlHKcfnr8cudzn9qis_P3YUGDys4HqMEtQHec7f-yDUzr_iqS-J-JF8"></div><nav class="hidden md:flex items-center gap-10" data-active-classes="text-primary font-medium border-b border-primary"><a aria-current="page" class="py-2 uppercase tracking-widest transition-colors text-primary font-medium border-b border-primary" data-path="home" href="#">Home</a><a class="py-2 font-body-md text-body-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="items" href="#">Items</a><a class="py-2 font-body-md text-body-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#">About</a><a class="py-2 font-body-md text-body-md uppercase tracking-widest text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-6"><div class="relative flex items-center"><select aria-label="Currency Selector" class="bg-transparent border border-outline-variant px-3 py-1.5 font-label-md text-label-md text-on-surface tracking-wider uppercase focus:outline-none focus:border-primary cursor-pointer"><option value="USD">USD ($)</option><option value="EUR">EUR (€)</option><option value="CHF">CHF (Fr.)</option><option value="GBP">GBP (£)</option></select></div><a class="hidden sm:inline-flex items-center justify-center px-6 py-2.5 bg-primary text-on-primary font-headline-sm text-[12px] uppercase tracking-[0.12em] border border-primary hover:bg-secondary hover:border-secondary hover:text-on-secondary transition-all duration-200" data-path="contact" href="#">Contact</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin pt-14 pb-16 lg:pt-20 lg:pb-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Editorial Copy -->
+<div class="lg:col-span-7 flex flex-col items-start">
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 bg-surface-container text-on-surface mb-6">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-on-surface-variant font-medium">Foundry Direct • B2B Wholesale Editions</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg lg:text-[44px] lg:leading-[52px] text-on-surface font-normal tracking-tight mb-6">
+            Architectural Fine Cuffs &amp; Bangles Crafted for Global Luxury Retailers
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed font-normal">
+            Primary foundry casting in RJC-certified recycled 18k solid gold, 925 argentium silver, and calibrated conflict-free stones. Direct wholesale allocation tailored for independent fine jewelers and luxury boutiques.
+          </p>
+<!-- Contact Actions -->
+<div class="flex flex-wrap items-center gap-4 w-full sm:w-auto">
+<a class="w-full sm:w-auto px-8 py-3.5 bg-primary text-on-primary font-headline-sm text-[12px] uppercase tracking-[0.14em] flex items-center justify-center gap-3 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Hello%20AuraCuff%20Desk%2C%20requesting%20wholesale%20allocation%20inquiry." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="">Inquire via WhatsApp</span>
+</a>
+<a class="w-full sm:w-auto px-8 py-3.5 bg-surface-container-low text-on-surface font-headline-sm text-[12px] uppercase tracking-[0.14em] flex items-center justify-center gap-2.5 transition-colors hover:bg-surface-container-high" href="mailto:orders@auracuff-atelier.com?subject=Wholesale%20Procurement%20Inquiry">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span class="">Email Procurement Desk</span>
+</a>
+</div>
+<!-- Micro Trust Bar -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-12 pt-8 w-full">
+<div class="flex flex-col gap-1">
+<span class="font-data-tabular text-data-tabular text-secondary font-semibold uppercase tracking-wider">Tier 1 MOQ</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">25 Units MOQ / SKU</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-data-tabular text-data-tabular text-secondary font-semibold uppercase tracking-wider">Transit Security</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">100% Brink's Armored</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-data-tabular text-data-tabular text-secondary font-semibold uppercase tracking-wider">Atelier Velocity</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">14 Days Casting Turn</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-data-tabular text-data-tabular text-secondary font-semibold uppercase tracking-wider">Certification</span>
+<span class="font-body-md text-body-md text-on-surface font-medium">Geneva RJC Certified</span>
+</div>
+</div>
+</div>
+<!-- Right Hero Vitrine -->
+<div class="lg:col-span-5 relative">
+<div class="relative bg-surface-container p-4 lg:p-6">
+<div class="relative overflow-hidden aspect-[4/5] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" data-alt="Editorial close up macro view of a solid 18k yellow gold sculpted cuff bracelet resting on a honed travertine stone block. Studio lighting with warm ivory highlights, rich metallic reflections, clean minimalist architectural luxury atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVqXbe1wfkF8Hsw4-iWO3r74X4wavoSfi5JlFY4zodoU1a99FpoBFgTd7lvciRO2mXqBqN8UyTdDpDYLOCPVtA83EJ7vcE8x_wly4QRrNasENk7IPW3VAcHXaoYcwyWjuhSHLcurrSrRq12J19d6M8-rQWw2cN7PCIXHP72k37ICztEwTPptowtWnKZHwJfI1ZE8IgPi0LALgoQ9ejSY2GO8r-LWDFWwheIXHOz8zm-OlLJhHuRFZv6A">
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/95 backdrop-blur-sm p-4 flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-[0.16em]">Series Master Lot</span>
+<span class="font-headline-sm text-[13px] text-on-surface uppercase tracking-wider">Sovereign No. 04 Ingot</span>
+</div>
+<div class="text-right">
+<span class="font-data-tabular text-[11px] text-on-surface-variant block uppercase tracking-widest">AU 750 / 18K</span>
+<span class="font-data-tabular text-data-tabular font-medium text-on-surface">34.50g Net Assay</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRODUCTION CATALOG & AVAILABLE COLLECTIONS -->
+<section class="w-full bg-surface py-16 lg:py-24" id="catalog">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<!-- Catalog Header & Filter Control -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-10">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary font-semibold block mb-2">B2B Vault Allocation</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-normal">Active Casting Collections</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 max-w-lg">
+            Certified wholesale editions ready for scheduled casting cycles and branded hallmark stamps.
+          </p>
+</div>
+<!-- Filter Pills -->
+<div class="flex flex-wrap items-center gap-2" id="filter-container">
+<button class="filter-btn px-4 py-2 text-label-sm font-label-sm uppercase tracking-wider bg-primary text-on-primary transition-colors" data-filter="all" type="button">All Metals</button>
+<button class="filter-btn px-4 py-2 text-label-sm font-label-sm uppercase tracking-wider bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors" data-filter="gold" type="button">18k Solid Gold</button>
+<button class="filter-btn px-4 py-2 text-label-sm font-label-sm uppercase tracking-wider bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors" data-filter="silver" type="button">925 Sterling Silver</button>
+<button class="filter-btn px-4 py-2 text-label-sm font-label-sm uppercase tracking-wider bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors" data-filter="pave" type="button">Diamond Pavé</button>
+<button class="filter-btn px-4 py-2 text-label-sm font-label-sm uppercase tracking-wider bg-surface-container-high text-on-surface hover:bg-surface-container-highest transition-colors" data-filter="gems" type="button">Bespoke Gems</button>
+</div>
+</div>
+<!-- Product Cards Grid (6 Curated Items) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="product-grid">
+<!-- Product 1 -->
+<article class="product-card flex flex-col bg-surface-container-lowest transition-all hover:bg-surface-container-low" data-category="gold">
+<div class="relative aspect-square w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Sculptural heavy 18k solid yellow gold cuff bracelet with subtle hand-hammered texture against a light ivory textured backdrop with sharp modern shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbG60hqtX2JsJwIrtQBZ5uEEiT0LkQ_wB7hELE8yGsnTI75_BLjqXzhVjq25S3aXuvZgDakcbt7sqRP2P1wZsOSUcBCp0YGCpnpSpCBH4e2USq8D-HkrDvZh_TGNc8F3qCTCqyib3sX1La2W1qb6p6o1UbjNiQ65lSWJTskRH2oGz5yCeRTsYnc4-_CVyadvit3ioQITa-qfT2J9218sJV4pn7G_Vj0fEUsB629fJOmC0na1pwLdrnMw">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1">
+<span class="font-data-tabular text-[11px] text-on-surface tracking-wider font-medium">SKU: AC-G18-7701</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-2">Sovereign Hammered 18k Gold Cuff</h3>
+<div class="flex items-center justify-between text-body-md font-body-md text-on-surface-variant pt-2">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+                  Recycled 18k Yellow Gold / 34.5g Purity Net
+                </span>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between bg-surface-container px-3 py-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Procurement Minimum</span>
+<span class="font-data-tabular text-[13px] font-semibold text-primary">MOQ: 25 pcs</span>
+</div>
+</div>
+<!-- Direct Contact Actions -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="py-2.5 px-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Inquiry%20for%20SKU%3A%20AC-G18-7701%20(Sovereign%20Hammered%2018k%20Gold%20Cuff)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span class="">WhatsApp</span>
+</a>
+<a class="py-2.5 px-3 bg-surface-container-high text-on-surface font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-surface-container-highest" href="mailto:orders@auracuff-atelier.com?subject=Allocation%20Request%3A%20AC-G18-7701">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="">Email Inquire</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Product 2 -->
+<article class="product-card flex flex-col bg-surface-container-lowest transition-all hover:bg-surface-container-low" data-category="gold pave">
+<div class="relative aspect-square w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Refined 18k white gold minimalist bangle with a channel of brilliant pavé diamonds, precision micro-set along the architectural bevel edge on neutral warm limestone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB643H57OY9xTz4HN-Noy1n7ryWXONtaAWApQ8dCjP4306yXrCJS_04Onecnzzjr4waxlS4kam6teuyyhyMjjuHFH12pUJLICOcJSi3uKW0E_0cHecyw-4fMxmBXlwvLysw-6jSCg4lPP9FaEVXZQn5Pb-kNKd7v0BfQ2hP-zSuoUXK0xzs8R27-dS69BKZOI9lJ5PVX52tXD720aCQAN0_B27OUSidCzKoKF9Xayb7LSILMeMl9Z9V-A">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1">
+<span class="font-data-tabular text-[11px] text-on-surface tracking-wider font-medium">SKU: AC-D18-2044</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-2">Aura Minimalist Pavé Bangle</h3>
+<div class="flex items-center justify-between text-body-md font-body-md text-on-surface-variant pt-2">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">diamond</span>
+                  18k White Gold / 1.45ctw VVS F-G
+                </span>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between bg-surface-container px-3 py-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Procurement Minimum</span>
+<span class="font-data-tabular text-[13px] font-semibold text-primary">MOQ: 25 pcs</span>
+</div>
+</div>
+<!-- Direct Contact Actions -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="py-2.5 px-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Inquiry%20for%20SKU%3A%20AC-D18-2044%20(Aura%20Minimalist%20Pav%C3%A9%20Bangle)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span class="">WhatsApp</span>
+</a>
+<a class="py-2.5 px-3 bg-surface-container-high text-on-surface font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-surface-container-highest" href="mailto:orders@auracuff-atelier.com?subject=Allocation%20Request%3A%20AC-D18-2044">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="">Email Inquire</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Product 3 -->
+<article class="product-card flex flex-col bg-surface-container-lowest transition-all hover:bg-surface-container-low" data-category="silver">
+<div class="relative aspect-square w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Modern architectural torque cuff forged in mirror polished 925 sterling silver with precision rhodium coating, geometric profile, sitting on smooth architectural plaster." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBh7KULMjDeB5ZjP8yN9mNWTpoHRYv9A0NZmnbzLafkC2LXYPWvtPpffocNLcGnAz1w-z7lVrzYdY57WmxaV2n2nr3cmcmYv9_j5zM8J_1xNPWtu96xunJ3nvNl1RK23wTF_2wsrH_F2FaY3Rz7nRKZBPtT5iKYNJL5StxVDv8_HQ-a1xNltUTtK5Z7FAtwY5ajJkGBhttO0YRV7LyZs6UycnZ9hlDeJHh5vZuNCYJ9FRBdYLd6Xab4-w">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1">
+<span class="font-data-tabular text-[11px] text-on-surface tracking-wider font-medium">SKU: AC-AG-9120</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-2">Architectural Cable Torque</h3>
+<div class="flex items-center justify-between text-body-md font-body-md text-on-surface-variant pt-2">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">token</span>
+                  Solid Sterling 925 / Rhodium Coated
+                </span>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between bg-surface-container px-3 py-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Procurement Minimum</span>
+<span class="font-data-tabular text-[13px] font-semibold text-primary">MOQ: 50 pcs</span>
+</div>
+</div>
+<!-- Direct Contact Actions -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="py-2.5 px-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Inquiry%20for%20SKU%3A%20AC-AG-9120%20(Architectural%20Cable%20Torque)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span class="">WhatsApp</span>
+</a>
+<a class="py-2.5 px-3 bg-surface-container-high text-on-surface font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-surface-container-highest" href="mailto:orders@auracuff-atelier.com?subject=Allocation%20Request%3A%20AC-AG-9120">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="">Email Inquire</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Product 4 -->
+<article class="product-card flex flex-col bg-surface-container-lowest transition-all hover:bg-surface-container-low" data-category="gold gems">
+<div class="relative aspect-square w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Heavy 18k solid yellow gold open cuff set with calibrated deep green Zambian emerald baguettes alternating along the top crest, warm studio lighting on warm sand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuADA8H0wD4V5sBZQPeN-7p4MblSvnqUzAvHLEg8KAf16q2PxMIn6ZJ_ZNdhBG5Xf8RZL2hFxSguIDjcRHskmpsh6Av6ed3lr7JxYg9pUFK1_TclRH0LlTjcmmtjEZJopZ-MlkVj96XJj2S9wjW7i7mXu3R_NF7d7KuZhEv2RTr_LaXG4S4XbyQqUa-Edot4-dZVkhAknT2W4qyjuyO9nXzwaQWmslpMBl6liH98-zdcocXL-pmzjy5fAQ">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1">
+<span class="font-data-tabular text-[11px] text-on-surface tracking-wider font-medium">SKU: AC-EM-4509</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-2">Verdant Emerald &amp; Baguette Line</h3>
+<div class="flex items-center justify-between text-body-md font-body-md text-on-surface-variant pt-2">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">auto_awesome</span>
+                  18k Solid Gold / 3.2ct Zambian Emeralds
+                </span>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between bg-surface-container px-3 py-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Procurement Minimum</span>
+<span class="font-data-tabular text-[13px] font-semibold text-primary">MOQ: 25 pcs</span>
+</div>
+</div>
+<!-- Direct Contact Actions -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="py-2.5 px-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Inquiry%20for%20SKU%3A%20AC-EM-4509%20(Verdant%20Emerald%20%26%20Baguette%20Line)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span class="">WhatsApp</span>
+</a>
+<a class="py-2.5 px-3 bg-surface-container-high text-on-surface font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-surface-container-highest" href="mailto:orders@auracuff-atelier.com?subject=Allocation%20Request%3A%20AC-EM-4509">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="">Email Inquire</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Product 5 -->
+<article class="product-card flex flex-col bg-surface-container-lowest transition-all hover:bg-surface-container-low" data-category="gold">
+<div class="relative aspect-square w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Modern monolithic matte brushed dark gray Grade 5 titanium cuff featuring an inlaid 18k rose gold central spine, industrial luxury styling on matte stone surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDgngt7zkOppZp8mZEDSYLccfzWD3pdaC7iiwPjx7mWS5WolFlhT_6Y4gxZ9qCj6t4nzZzNbjnIssKwlb1bnpr3rE2eYVhfBDhMn7E0j9qb4Z-rzQP8NbuGF-_t-W_zRYpQcIiwj7ZyWsRe5dLSAzeQqfTFhnpC6FfN3zRdg_mpNKlCcnVEhka-rpciLVXgC8YEhrFYzq1MXxa6BBOCXfs3iYWdBfitfAgi37jp-xCNWCIjnmmxR2WIw">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1">
+<span class="font-data-tabular text-[11px] text-on-surface tracking-wider font-medium">SKU: AC-TI-3311</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-2">Monolithic Brushed Titanium &amp; Gold</h3>
+<div class="flex items-center justify-between text-body-md font-body-md text-on-surface-variant pt-2">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">layers</span>
+                  Grade 5 Titanium + 18k Rose Gold Inset
+                </span>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between bg-surface-container px-3 py-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Procurement Minimum</span>
+<span class="font-data-tabular text-[13px] font-semibold text-primary">MOQ: 50 pcs</span>
+</div>
+</div>
+<!-- Direct Contact Actions -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="py-2.5 px-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Inquiry%20for%20SKU%3A%20AC-TI-3311%20(Monolithic%20Brushed%20Titanium%20%26%20Gold)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span class="">WhatsApp</span>
+</a>
+<a class="py-2.5 px-3 bg-surface-container-high text-on-surface font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-surface-container-highest" href="mailto:orders@auracuff-atelier.com?subject=Allocation%20Request%3A%20AC-TI-3311">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="">Email Inquire</span>
+</a>
+</div>
+</div>
+</article>
+<!-- Product 6 -->
+<article class="product-card flex flex-col bg-surface-container-lowest transition-all hover:bg-surface-container-low" data-category="silver gold">
+<div class="relative aspect-square w-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" data-alt="Intricately twisted heritage nautical cable cuff made of antiqued 925 sterling silver cables with solid 14k gold capped finials, dramatic soft side lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVjyWSttzu2OSwjlH9aV9ooYDYQ-bCaEa7a-lQjL4vTEYsyat4_nNLM3AvnHeK-hCuyAsiY7XccuTR3JTcGjM0Epg4g0zT0oCo-YjrkuQiSfJ8JkKzygcuLElrA79iLMMMklnSQtCu1eaY537s_PkZJnKY1YtsLYfjv_P-9fWuJGSrbmZbDE0x-nAj97wUTPlCPlthEync4ft6goJIpvJ9GnfFzS4T4Oyj-WvHFim7phdaICyzGcEWlw">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-sm px-2.5 py-1">
+<span class="font-data-tabular text-[11px] text-on-surface tracking-wider font-medium">SKU: AC-HC-1950</span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-2">Heritage Twisted Cable Nautical Cuff</h3>
+<div class="flex items-center justify-between text-body-md font-body-md text-on-surface-variant pt-2">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">tune</span>
+                  925 Sterling Silver + 14k Gold Finials
+                </span>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between bg-surface-container px-3 py-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Procurement Minimum</span>
+<span class="font-data-tabular text-[13px] font-semibold text-primary">MOQ: 25 pcs</span>
+</div>
+</div>
+<!-- Direct Contact Actions -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="py-2.5 px-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Inquiry%20for%20SKU%3A%20AC-HC-1950%20(Heritage%20Twisted%20Cable%20Nautical%20Cuff)" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[15px]">chat</span>
+<span class="">WhatsApp</span>
+</a>
+<a class="py-2.5 px-3 bg-surface-container-high text-on-surface font-headline-sm text-[11px] uppercase tracking-wider flex items-center justify-center gap-1.5 transition-colors hover:bg-surface-container-highest" href="mailto:orders@auracuff-atelier.com?subject=Allocation%20Request%3A%20AC-HC-1950">
+<span class="material-symbols-outlined text-[15px]">mail</span>
+<span class="">Email Inquire</span>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- DIRECT ATELIER CONCIERGE & CUSTOM ALLOCATION STRIP -->
+<section class="w-full bg-primary-container text-on-primary">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin py-14 lg:py-16">
+<div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+<div class="flex flex-col gap-2 text-center lg:text-left max-w-2xl">
+<div class="inline-flex items-center justify-center lg:justify-start gap-2 text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] font-semibold">Bespoke Foundry Solutions</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-primary font-normal">
+            Need Custom Dimensions, Private Label Stamps, or Bulk Allocation?
+          </h2>
+<p class="font-body-md text-body-md text-on-primary-container">
+            Connect immediately with our chief metallurgist and allocation officer for confidential institutional trade runs.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
+<a class="w-full sm:w-auto px-7 py-3.5 bg-secondary text-on-secondary font-headline-sm text-[12px] uppercase tracking-[0.14em] flex items-center justify-center gap-3 transition-opacity hover:opacity-90" href="https://wa.me/18008422872" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span class="">WhatsApp: +1 (800) 842-2872</span>
+</a>
+<a class="w-full sm:w-auto px-7 py-3.5 bg-surface-container-lowest text-on-surface font-headline-sm text-[12px] uppercase tracking-[0.14em] flex items-center justify-center gap-2.5 transition-colors hover:bg-surface-container-high" href="mailto:orders@auracuff-atelier.com">
+<span class="material-symbols-outlined text-[18px]">alternate_email</span>
+<span class="">Email: orders@auracuff-atelier.com</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- PRE-FOOTER CAPABILITIES SECTION -->
+<section class="w-full bg-surface-container-low py-16 lg:py-24">
+<div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin">
+<div class="max-w-2xl mb-12">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary font-semibold block mb-2">Institutional Standards</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-normal">Foundry Capabilities &amp; Bespoke Services</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Engineered for global jewelers demanding Swiss-grade tolerance, accredited bullion custody, and zero-defect wholesale production.
+        </p>
+</div>
+<!-- 4-Card Capability Matrix -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<div class="p-8 bg-surface-container-lowest flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined text-[24px]">qr_code_2</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-3">Custom Laser Hallmarking &amp; Assay</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              0.02mm micro-laser precision stamping of your private brand mark, certified Swiss assay hallmarks, and serial identification numbers on every unit.
+            </p>
+</div>
+<div class="pt-6 mt-6">
+<span class="font-data-tabular text-[11px] text-secondary uppercase tracking-widest font-semibold block">Swiss Assay Protocol</span>
+</div>
+</div>
+<div class="p-8 bg-surface-container-lowest flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined text-[24px]">science</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-3">Bespoke Ingot &amp; Alloy Blending</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Proprietary metallurgical formulations in 14K/18K gold (Yellow, Rose, Ultra-White), Grade 5 titanium, and anti-tarnish Argentium 960 alloys.
+            </p>
+</div>
+<div class="pt-6 mt-6">
+<span class="font-data-tabular text-[11px] text-secondary uppercase tracking-widest font-semibold block">Custom Karat Purity</span>
+</div>
+</div>
+<div class="p-8 bg-surface-container-lowest flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined text-[24px]">local_shipping</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-3">Insured Armored Freight &amp; Vaulting</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Global point-to-point delivery via Brink's and Malca-Amit with automated customs declarations and zero-deductible Lloyd's of London underwriting.
+            </p>
+</div>
+<div class="pt-6 mt-6">
+<span class="font-data-tabular text-[11px] text-secondary uppercase tracking-widest font-semibold block">Full Institutional Cover</span>
+</div>
+</div>
+<div class="p-8 bg-surface-container-lowest flex flex-col justify-between">
+<div>
+<div class="w-12 h-12 bg-surface-container flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined text-[24px]">inventory_2</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface uppercase tracking-wide mb-3">Showroom &amp; Sample Dispatch</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Direct sample kits dispatched within 48 hours for accredited luxury houses. Includes metal assay swatches and laser finish guides.
+            </p>
+</div>
+<div class="pt-6 mt-6">
+<span class="font-data-tabular text-[11px] text-secondary uppercase tracking-widest font-semibold block">48H Sample Transit</span>
+</div>
+</div>
+</div>
+<!-- Metallurgy Allocation Banner -->
+<div class="mt-12 p-8 lg:p-10 bg-surface-container flex flex-col lg:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-5">
+<div class="w-12 h-12 bg-surface-container-lowest flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[26px]">balance</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm uppercase tracking-wide text-on-surface">Weekly Bullion Rate Contract Access</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Lock LBMA spot gold fixes directly for scheduled seasonal production runs.</p>
+</div>
+</div>
+<a class="px-6 py-3 bg-primary text-on-primary font-headline-sm text-[11px] uppercase tracking-widest whitespace-nowrap transition-colors hover:bg-secondary" href="https://wa.me/18008422872?text=Requesting%20LBMA%20Spot%20Gold%20Fix%20Schedule" rel="noopener noreferrer" target="_blank">
+          Request Ingot Allocation
+        </a>
+</div>
+</div>
+</section>
+<!-- CLIENT-SIDE FILTER SCRIPT -->
+<script>
+    (function() {
+      const buttons = document.querySelectorAll('.filter-btn');
+      const cards = document.querySelectorAll('.product-card');
+
+      buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const filter = btn.getAttribute('data-filter');
+
+          // Update Button Styles
+          buttons.forEach(b => {
+            b.classList.remove('bg-primary', 'text-on-primary');
+            b.classList.add('bg-surface-container-high', 'text-on-surface');
+          });
+          btn.classList.remove('bg-surface-container-high', 'text-on-surface');
+          btn.classList.add('bg-primary', 'text-on-primary');
+
+          // Filter Cards
+          cards.forEach(card => {
+            const categories = card.getAttribute('data-category').split(' ');
+            if (filter === 'all' || categories.includes(filter)) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    })();
+  </script>
+</div></main><aside class="fixed right-0 top-1/2 -translate-y-1/2 z-30 hidden lg:block"><button class="bg-primary text-on-primary border border-outline-variant border-r-0 py-4 px-2.5 shadow-lg flex flex-col items-center gap-2 hover:bg-secondary hover:text-on-secondary transition-colors" style="writing-mode: vertical-rl; transform: rotate(180deg);" type="button"><span class="material-symbols-outlined text-[16px] transform rotate-90">request_quote</span><span class="font-label-sm text-label-sm uppercase tracking-[0.16em]">Contact &amp; Quote</span></button></aside><div class="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-3"><div class="flex flex-col gap-2 shadow-2xl"><a class="w-11 h-11 bg-surface-container-lowest border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high hover:text-on-surface transition-colors shadow-sm" href="https://wa.me/" rel="noopener noreferrer" target="_blank" title="Direct WhatsApp Trade Line"><span class="material-symbols-outlined text-[20px]">chat</span></a><a class="w-11 h-11 bg-surface-container-lowest border border-outline-variant flex items-center justify-center text-on-surface hover:bg-surface-container-high hover:text-on-surface transition-colors shadow-sm" href="mailto:trade@auracuff.com" title="Wholesale Desk Inquiries"><span class="material-symbols-outlined text-[20px]">mail</span></a></div><button aria-label="Trader Support Desk" class="w-13 h-13 p-3.5 bg-primary text-on-primary border border-primary flex items-center justify-center shadow-lg hover:bg-secondary hover:border-secondary hover:text-on-secondary transition-all" type="button"><span class="material-symbols-outlined text-[22px]">support_agent</span></button></div><footer class="w-full bg-surface-container-low border-t border-surface-container-high mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin-mobile lg:px-margin pt-16 pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12"><div class="flex flex-col gap-4"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase text-primary tracking-widest">AuraCuff</span><span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-[0.2em]">Wholesale Atelier</span></div><p class="font-body-md text-body-md text-on-surface-variant pr-4 leading-relaxed">Institutional vault supply, high-jewelry casting, and bespoke diamond cuff manufacturing for certified horology and luxury trade partners globally.</p></div><div class="flex flex-col gap-4"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary">Ateliers &amp; Vaults</span><ul class="space-y-3 font-body-md text-body-md text-on-surface-variant"><li class="flex flex-col"><strong class="text-on-surface font-headline-sm text-[12px] uppercase tracking-wider">Geneva</strong><span class="font-data-tabular text-data-tabular">Rue du Rhône 42, 1204 Genève</span></li><li class="flex flex-col"><strong class="text-on-surface font-headline-sm text-[12px] uppercase tracking-wider">New York</strong><span class="font-data-tabular text-data-tabular">580 Fifth Avenue, Suite 1902, NY 10036</span></li><li class="flex flex-col"><strong class="text-on-surface font-headline-sm text-[12px] uppercase tracking-wider">Milan</strong><span class="font-data-tabular text-data-tabular">Via Monte Napoleone 8, 20121 Milano</span></li></ul></div><div class="flex flex-col gap-4"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary">Trade Standards</span><ul class="space-y-2.5 font-body-md text-body-md text-on-surface-variant"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-secondary">verified</span><span class="">RJC Chain-of-Custody</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-secondary">recycling</span><span class="">100% Recycled Gold Certified</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-secondary">diamond</span><span class="">Kimberley Process Compliant</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-secondary">shield</span><span class="">LBMA Good Delivery Sourcing</span></li></ul></div><div class="flex flex-col gap-4"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary">Confidential Trade Wire</span><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Weekly institutional bullion rates, batch parcel releases, and private lot access.</p><form class="flex flex-col gap-2"><input class="bg-surface-container-lowest border border-outline-variant px-3 py-2 font-body-md text-body-md text-on-surface placeholder:text-outline-variant focus:outline-none focus:border-primary" placeholder="Institutional email address" type="email"><button class="w-full py-2.5 bg-primary text-on-primary font-headline-sm text-[12px] uppercase tracking-[0.12em] hover:bg-secondary hover:text-on-secondary transition-colors" type="button">Subscribe Wire</button></form></div></div><div class="mt-16 pt-8 border-t border-surface-container-high flex flex-col md:flex-row items-center justify-between gap-4 font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant"><p class="">© 2025 AuraCuff Wholesale Atelier S.A. All rights reserved.</p><div class="flex items-center gap-6"><a class="hover:text-primary transition-colors" href="#">Institutional Terms</a><a class="hover:text-primary transition-colors" href="#">AML &amp; Due Diligence</a><a class="hover:text-primary transition-colors" href="#">Vault Protocol</a><a class="hover:text-primary transition-colors" href="#">Privacy Policy</a></div></div></div></footer>
+
+</body></html>
